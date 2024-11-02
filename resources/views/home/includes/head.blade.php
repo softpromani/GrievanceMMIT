@@ -1,7 +1,7 @@
 <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Grivance Portal | @yield('title')</title>
+  <title>Welcome to UPASHSA</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
@@ -15,7 +15,7 @@
   <meta name="theme-name" content="Grievance web" />
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('home/images/favicon.png') }}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('home/images/app-logo.png') }}" />
 
   <!-- PLUGINS CSS STYLE -->
   <link rel="stylesheet" href="{{ asset('home/plugins/bootstrap/bootstrap.min.css') }}">

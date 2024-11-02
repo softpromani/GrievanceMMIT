@@ -10,3 +10,4 @@
   <script src="{{ asset('home/plugins/google-map/gmap.js') }}"></script>
 
   <script src="{{ asset('home/js/script.js') }}"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

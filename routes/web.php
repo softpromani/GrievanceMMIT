@@ -15,4 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('about-upashsa', [HomeController::class, 'aboutUPASHSA'])->name('aboutUPASHSA');
+Route::get('aims-objectives', [HomeController::class, 'aimsObjectives'])->name('aimsObjectives');
+Route::get('constituents-of-upashsa', [HomeController::class, 'constituentsUPASHSA'])->name('constituentsUPASHSA');
+Route::get('member-of-association', [HomeController::class, 'associationMember'])->name('associationMember');
+
 Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
+
+//Auth Pages
+Route::get('sign-up', [HomeController::class, 'signUp'])->name('signUp');
+Route::get('sign-in', [HomeController::class, 'signIn'])->name('signIn');

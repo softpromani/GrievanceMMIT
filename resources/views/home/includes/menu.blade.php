@@ -16,19 +16,20 @@
             </a>
             <!-- Dropdown list -->
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item @@team" href="#">About UPASHSA</a></li>
-              <li><a class="dropdown-item @@team" href="#">Aims & Objectives</a></li>
-              <li><a class="dropdown-item @@team" href="#">Constituents of  UPASHSA</a></li>
-              <li><a class="dropdown-item @@team" href="#">Member of Association</a></li>
+              <li><a class="dropdown-item" href="{{ route('aboutUPASHSA') }}">About UPASHSA</a></li>
+              <li><a class="dropdown-item" href="{{ route('aimsObjectives') }}">Aims & Objectives</a></li>
+              <li><a class="dropdown-item" href="{{ route('constituentsUPASHSA') }}">Constituents of UPASHSA</a></li>
+              <li><a class="dropdown-item" href="{{ route('associationMember') }}">Member of Association</a></li>
             </ul>
           </li>
           {{-- <li class="nav-item @@about">
             <a class="nav-link" href="about.html">About</a>
           </li> --}}
-          <li class="nav-item @@contact">
+          <li class="nav-item">
             <a class="nav-link" href="{{ route('contactUs') }}">Contact</a>
           </li>
         </ul>
+        <a class="btn btn-main-md" href="{{ route('signIn') }}">LOGIN</a>
       </div>
     </div>
   </nav>

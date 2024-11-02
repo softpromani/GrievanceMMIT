@@ -4,6 +4,7 @@
 <head>
 
     @include('home.includes.head')
+    @yield('header-area')
 
 </head>
 
@@ -17,6 +18,7 @@
     @include('home.includes.footer')
 
     @include('home.includes.foot')
+    @yield('script-area')
 </body>
 
 </html>
